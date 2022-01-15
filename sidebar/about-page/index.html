@@ -1,0 +1,57 @@
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!---Edit the name to whatever you want it to show in here: https://i.imgur.com/5H3Hyjq.png --><title>@ComputerConnor</title>
+
+        <!-- here as well (this will show on Google & whenever you type in the link for the site on discord or twitter or whatever, will create an embed) -->
+        <meta property="og:title" content="Site Title" /> 
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://my.site.com" />
+        <meta property="og:image" content="http://my.site.com/images/thumb.png" />
+        <meta property="og:description" content="Site description" />
+        <meta name="theme-color" content="#FF0000">
+        <meta name="twitter:card" content="summary_large_image">
+
+
+        <link href="assets/js/css/hover-min.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/style.css"> <!--Don't remove this, it gives the styles implemented into the front end so if you take this off, it will look like html2-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap">
+    </head>
+    <body>
+        <div class="background">
+            <img src="assets/background.gif" alt="background image"/> <!--Replace the gif file with something else-->
+        </div>
+        <div class="wrapper">
+            <div class="inner">
+                <!---your name--><h1>Connor Jordan</h1>
+                <!---slogan or some shit u want it to say--><h2>ADHD Central</h2>
+                <div class="row">
+                    <div class="column">
+                        <a class="hvr-grow" href="https://discordapp.com/users/931740084540145715" target="_blank"><img src="assets/discord-512.webp" width="50" height="50"></a>
+                        </div>
+                    <div class="column">
+                        <a class="hvr-grow" href="https://ogusers.com/ComputerConnor" target="_blank"><img src="assets/550df541f6e00bef27e4e890ab5349d5.webp" width="50" height="50"></a>
+                    </div>
+                    <div class="column">
+                        <a class="hvr-grow" href="https://instagram.com/ComputerConnor" target="_blank"><img src="assets/1024px-Instagram_icon.png" width="50" height="50"></a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <span class="audio" onclick="playAudio()">(Click for audio)</span> 
+        <audio controls autoplay>
+            <source src="assets/soundtrack.mp3" type="audio/mpeg"> <!--To swap the mp3, just replace the mp3 file inside of this folder.-->
+        </audio>
+        <script>
+            function playAudio() { // this speaks for itself ig, just calls the function
+                document.querySelector('audio').play()
+            }
+        </script>
+    </body>
+</html>
