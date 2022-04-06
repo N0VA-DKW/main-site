@@ -1161,7 +1161,7 @@ var jackpotAI = {
   bot2: ["exochase", 1, "https://i.imgur.com/za6Y17z.png"],
   bot3: ["S5E3", 1, "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/62/62001ac6b067182b65f92fa07797c630af64bb4a_full.jpg"],
   bot4: ["MR.BEATS", 2, "https://i.imgur.com/dIs0yE8.png"],
-  bot5: ["CockCrusher19", 2, "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/03/03b0621515c85e256c20a8f169737430fa57281d_full.jpg"],
+  bot5: ["ComputerConnor", 2, "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/03/03b0621515c85e256c20a8f169737430fa57281d_full.jpg"],
   bot6: ["Octane | n OU", 2, "https://i.imgur.com/P2hwwIE.png"],
   bot7: ["Moon Cricket Butler", 3, "https://i.imgur.com/qNsPKRH.png"],
   bot8: ["filsmick", 3, "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/c3/c31d18ad931fd685ca3af5700db6a461e10bcfe8_full.jpg"],
