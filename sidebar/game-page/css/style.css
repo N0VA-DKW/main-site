@@ -37,8 +37,7 @@ h1 {
   font-family: 'Open Sans';
   text-transform: capitalize;
   font-weight: 800;
-  color: #00a27e;
-    
+  color: #00a27e;   
 }
 h1 span {
   color: #00a27e;
@@ -47,6 +46,12 @@ h2 {
   color: #FFFFFF;
 }
 h2 span {
+  color: #FFFFFF;
+}
+h3 {
+  color: #FFFFFF;
+}
+h3 span {
   color: #FFFFFF;
 }
 form {
