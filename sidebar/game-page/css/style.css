@@ -43,7 +43,10 @@ h1 {
 h1 span {
   color: #00a27e;
 }
-h2 span{
+h2 {
+  color: #FFFFFF;
+}
+h2 span {
   color: #FFFFFF;
 }
 form {
