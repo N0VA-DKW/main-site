@@ -91,8 +91,8 @@ img {
     cursor: pointer;
 }
 .column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
+    float: right;
+    width: 50%;
+    padding: 30px;
   }
   
