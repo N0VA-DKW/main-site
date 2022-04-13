@@ -212,8 +212,11 @@ form {
 }
 
 #button-3 a {
-  position: relative;
-  transition: all .45s ease-Out;
+  /* position: relative;
+  transition: all .45s ease-Out; */
+  position:absolute; 
+  top:0; 
+  left:0;
 }
 
 #circle {
