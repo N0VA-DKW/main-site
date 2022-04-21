@@ -210,8 +210,8 @@ form {
 }
 
 #button-3{
-  top: -300px;
-  left:-700px;
+  top: -200px;
+  left:-450px;
 }
 
 #button-3 a {
@@ -299,8 +299,8 @@ a:active { text-decoration: none; }
     line-height: 25px;
 }
 .counter{
-    top: 100px;
-    left: 1500px;
+    top: 70px;
+    left: 1000px;
     position: absolute;
 }
 .weather{
