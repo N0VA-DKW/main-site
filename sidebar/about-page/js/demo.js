@@ -7,6 +7,7 @@
  * 
  * Copyright 2017, Codrops
  * http://www.codrops.com
+ * commit 2
  */
 {
 	setTimeout(() => document.body.classList.add('render'), 60);
