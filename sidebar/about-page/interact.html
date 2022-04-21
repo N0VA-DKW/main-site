@@ -11,7 +11,16 @@
 		<link rel="stylesheet" type="text/css" href="css/demo1.css">
 		<link rel="stylesheet" type="text/css" href="pater/pater.css">
 		<script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
-		<script src="//tympanus.net/codrops/adpacks/analytics.js"></script>
+		<meta property="og:title" content="Site Title" /> 
+        	<meta property="og:type" content="website" />
+        	<meta property="og:url" content="http://my.site.com" />
+        	<meta property="og:image" content="http://my.site.com/images/thumb.png" />
+        	<meta property="og:description" content="Site description" />
+        	<meta name="theme-color" content="#FF0000">
+        	<meta name="twitter:card" content="summary_large_image">
+        	<link href="assets/js/css/hover-min.css" rel="stylesheet">
+        	<link rel="stylesheet" href="assets/style.css"> <!--Don't remove this, it gives the styles implemented into the front end so if you take this off, it will look like html2-->
+        	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap">
 	</head>
 	<body class="demo-1 render">
 		<svg class="hidden">
@@ -94,6 +103,33 @@
 		<script src="js/three.min.js"></script>
 		<script src="js/TweenMax.min.js"></script>
 		<script src="js/demo1.js"></script>
+		
+		<div class="wrapper">
+            <div class="inner">
+                <div class="row">
+                    <div class="column">
+                        <a class="hvr-grow" href="https://discordapp.com/users/931740084540145715" target="_blank"><img src="assets/discord-512.webp" width="50" height="50"></a>
+                        </div>
+                    <!---<div class="column">-->
+                        <!---<a class="hvr-grow" href="https://ogusers.com/ComputerConnor" target="_blank"><img src="assets/550df541f6e00bef27e4e890ab5349d5.webp" width="50" height="50"></a>-->
+                    <!---</div>-->
+                    <div class="column">
+                        <a class="hvr-grow" href="https://instagram.com/ComputerConnor" target="_blank"><img src="assets/1024px-Instagram_icon.png" width="50" height="50"></a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <span class="audio" onclick="playAudio()">(Click for audio)</span> 
+        <audio controls autoplay>
+            <source src="assets/soundtrack.mp3" type="audio/mpeg"> <!--To swap the mp3, just replace the mp3 file inside of this folder.-->
+        </audio>
+        <script>
+            function playAudio() { // this speaks for itself ig, just calls the function
+                document.querySelector('audio').play()
+            }
+        </script>
 	
 
-</body></html>
+</body>
+</html>
