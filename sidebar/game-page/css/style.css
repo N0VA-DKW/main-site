@@ -298,3 +298,15 @@ a:active { text-decoration: none; }
     margin: 20px 0;
     line-height: 25px;
 }
+.counter{
+    top: 70px;
+    left: 1000px;
+    position: absolute;
+}
+.weather{
+    top: 250px;
+    left: 0px;
+    position: absolute;
+    height: 750px;
+    width: 500px;
+}
